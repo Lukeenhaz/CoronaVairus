@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EVENTOS DOM</title>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    #area
+    {
+        background: rgb(167, 161, 161);
+        font-size: 25pt;
+        color: rgb(36, 22, 22);
+        width: 500px;
+        height:500px;
+        line-height: 510px;
+        text-align: center;
+        margin: 40px;
+        border-radius: 50%;
+        float: left;
+        left: 1%;
+       
+    }
+
+    #Lucas
+    {
+        width: 580px;
+        display: block;
+        position: absolute;
+        
+    }
+
+</style>
+
+
+</head>
+
+
+<body>
+
+    <audio id="audio">
+        <source src="audio/audio.mp3" type="audio/mpeg" />  
+    </audio> 
+
+    <div id = "area" onclick="clicar()" 
+                     onmouseenter = "entrar()" 
+                     onmouseout="sair()">
+    </div>
+
+    <!--  <div img src="img/corona.jpeg"> </div> -->
+    <img id="Lucas" src="img/corona.jpeg" alt='corona' style= "display: none;" /> 
+
+    <script src="script.js"></script>
+</body>
+</html>
+
