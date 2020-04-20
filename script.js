@@ -4,6 +4,7 @@ let x = 0
 
 let area = document.querySelector('#area')
 
+if(x == 0) sair()
 
 
 // area.innerText = "Dont click, it is vairus!"
@@ -12,7 +13,7 @@ function clicar() {
   //document.getElementById("Lucas").style.display ="block";
   a.style.background = 'rgb(167, 161, 161)';
   document.getElementById("audio").play();
-  a.style.backgroundImage="url('img/corona.jpeg')";
+  a.style.backgroundImage="url('corona.jpeg')";
   a.style.backgroundSize = 'cover'
   a.innerText = ''
 
